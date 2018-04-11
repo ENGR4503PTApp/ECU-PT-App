@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CCCB522DE6DDE8E23AA3ACE5 /* Pods_ECU_PT_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C21F30E264BFE00C36848923 /* Pods_ECU_PT_App.framework */; };
 		FCD258A3207EB9DF002E3FC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD258A2207EB9DF002E3FC4 /* AppDelegate.swift */; };
-		FCD258A5207EB9DF002E3FC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD258A4207EB9DF002E3FC4 /* ViewController.swift */; };
 		FCD258A8207EB9DF002E3FC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD258A6207EB9DF002E3FC4 /* Main.storyboard */; };
 		FCD258AB207EB9DF002E3FC4 /* ECU_PT_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCD258A9207EB9DF002E3FC4 /* ECU_PT_App.xcdatamodeld */; };
 		FCD258AD207EB9DF002E3FC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCD258AC207EB9DF002E3FC4 /* Assets.xcassets */; };
 		FCD258B0207EB9DF002E3FC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD258AE207EB9DF002E3FC4 /* LaunchScreen.storyboard */; };
+		FCD258B8207EBB6F002E3FC4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD258B7207EBB6F002E3FC4 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4101175B5952827DD43A9B78 /* Pods-ECU PT App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECU PT App.release.xcconfig"; path = "Pods/Target Support Files/Pods-ECU PT App/Pods-ECU PT App.release.xcconfig"; sourceTree = "<group>"; };
+		7382E851F1077B6B98984CFB /* Pods-ECU PT App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECU PT App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ECU PT App/Pods-ECU PT App.debug.xcconfig"; sourceTree = "<group>"; };
+		C21F30E264BFE00C36848923 /* Pods_ECU_PT_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ECU_PT_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCD2589F207EB9DF002E3FC4 /* ECU PT App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ECU PT App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCD258A2207EB9DF002E3FC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FCD258A4207EB9DF002E3FC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FCD258A7207EB9DF002E3FC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FCD258AA207EB9DF002E3FC4 /* ECU_PT_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ECU_PT_App.xcdatamodel; sourceTree = "<group>"; };
 		FCD258AC207EB9DF002E3FC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCD258AF207EB9DF002E3FC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCD258B1207EB9DF002E3FC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCD258B7207EBB6F002E3FC4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCCB522DE6DDE8E23AA3ACE5 /* Pods_ECU_PT_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05C61513884EBF040FDFA880 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C21F30E264BFE00C36848923 /* Pods_ECU_PT_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5910FE9EFC27C9B7B1266E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7382E851F1077B6B98984CFB /* Pods-ECU PT App.debug.xcconfig */,
+				4101175B5952827DD43A9B78 /* Pods-ECU PT App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FCD25896207EB9DE002E3FC4 = {
 			isa = PBXGroup;
 			children = (
 				FCD258A1207EB9DF002E3FC4 /* ECU PT App */,
 				FCD258A0207EB9DF002E3FC4 /* Products */,
+				D5910FE9EFC27C9B7B1266E7 /* Pods */,
+				05C61513884EBF040FDFA880 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,7 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				FCD258A2207EB9DF002E3FC4 /* AppDelegate.swift */,
-				FCD258A4207EB9DF002E3FC4 /* ViewController.swift */,
+				FCD258B7207EBB6F002E3FC4 /* LoginViewController.swift */,
 				FCD258A6207EB9DF002E3FC4 /* Main.storyboard */,
 				FCD258AC207EB9DF002E3FC4 /* Assets.xcassets */,
 				FCD258AE207EB9DF002E3FC4 /* LaunchScreen.storyboard */,
@@ -74,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCD258B4207EB9DF002E3FC4 /* Build configuration list for PBXNativeTarget "ECU PT App" */;
 			buildPhases = (
+				7ECCD7E074780F0C215B30B2 /* [CP] Check Pods Manifest.lock */,
 				FCD2589B207EB9DE002E3FC4 /* Sources */,
 				FCD2589C207EB9DE002E3FC4 /* Frameworks */,
 				FCD2589D207EB9DE002E3FC4 /* Resources */,
+				A8A9D86A69FDCDD65DE0CE0D /* [CP] Embed Pods Frameworks */,
+				AE85EF8BABFCA75565E2CE3F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,13 +161,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7ECCD7E074780F0C215B30B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ECU PT App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8A9D86A69FDCDD65DE0CE0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ECU PT App/Pods-ECU PT App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ECU PT App/Pods-ECU PT App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE85EF8BABFCA75565E2CE3F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ECU PT App/Pods-ECU PT App-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseTwitterAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseTwitterAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ECU PT App/Pods-ECU PT App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FCD2589B207EB9DE002E3FC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCD258B8207EBB6F002E3FC4 /* LoginViewController.swift in Sources */,
 				FCD258AB207EB9DF002E3FC4 /* ECU_PT_App.xcdatamodeld in Sources */,
-				FCD258A5207EB9DF002E3FC4 /* ViewController.swift in Sources */,
 				FCD258A3207EB9DF002E3FC4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +392,7 @@
 		};
 		FCD258B5207EB9DF002E3FC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7382E851F1077B6B98984CFB /* Pods-ECU PT App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ECU PT App/Info.plist";
@@ -274,6 +405,7 @@
 		};
 		FCD258B6207EB9DF002E3FC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4101175B5952827DD43A9B78 /* Pods-ECU PT App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ECU PT App/Info.plist";
